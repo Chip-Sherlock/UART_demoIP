@@ -1,5 +1,7 @@
 
 module uart_rx(clk,rst,rx,rx_data_out);
+import mut_def::*;
+
 
 parameter clk_freq = 50000000; //MHz
 parameter baud_rate = 19200; //bits per second

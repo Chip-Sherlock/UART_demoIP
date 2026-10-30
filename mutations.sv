@@ -1,0 +1,8 @@
+package mut;
+//please change the desired mutation splited by enter mution count =20 
+parameter m2=1 ;
+parameter m3=1 ;
+parameter m19=1 ;
+parameter m18=1 ;
+parameter m22=1 ;
+endpackage

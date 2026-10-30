@@ -1,0 +1,23 @@
+package mut_def;
+parameter m0=0;
+parameter m1=0;
+parameter m2=1;
+parameter m3=1;
+parameter m4=0;
+parameter m5=0;
+parameter m6=0;
+parameter m7=0;
+parameter m8=0;
+parameter m9=0;
+parameter m10=0;
+parameter m11=0;
+parameter m12=0;
+parameter m13=0;
+parameter m14=0;
+parameter m15=0;
+parameter m16=0;
+parameter m17=0;
+parameter m18=1;
+parameter m19=1;
+parameter m20=0;
+endpackage

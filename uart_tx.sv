@@ -1,7 +1,7 @@
 
 
 module uart_tx(clk,rst,start,tx_data_in,tx,tx_active,done_tx);
-
+import mut_def::*;
 parameter clk_freq = 50000000; //MHz
 parameter baud_rate = 19200; //bits per second
 input clk,rst;
