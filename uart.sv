@@ -18,7 +18,8 @@ parameter clock_divide = (clk_freq/baud_rate);
 	
 uart_rx 
        #(.clk_freq(clk_freq),
-	 .baud_rate(baud_rate)
+	 .baud_rate(baud_rate),
+   .
 	)
       receiver
              (

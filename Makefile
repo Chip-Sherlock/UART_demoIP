@@ -12,3 +12,6 @@ build:
 	while read -r name value; do \
 		sed -i -E "s/^([[:space:]]*parameter[[:space:]]+$$name[[:space:]]*=[[:space:]]*)[^;]+/\1$$value/" mutation_defult.sv; \
 	done < <(sed -nE 's/^[[:space:]]*parameter[[:space:]]+(m[0-9]+)[[:space:]]*=[[:space:]]*([0-9]+)[[:space:]]*;.*/\1 \2/p' mutations.sv)
+
+clean:
+ 	cat mutdef.txt >mutation_defult.sv
