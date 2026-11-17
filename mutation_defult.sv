@@ -1,5 +1,5 @@
 package mut_def;
-parameter m0=0;
+parameter m0=0; //active reset mutation 
 parameter m1=0;
 parameter m2=1;
 parameter m3=1;
